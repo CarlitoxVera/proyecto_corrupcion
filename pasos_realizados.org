@@ -1,0 +1,23 @@
+#+TITLE: Documentación del Proyecto Corrupción
+#+AUTHOR: Carlos
+#+DATE: [2025-01-13]
+
+* Introducción
+Este archivo contiene todos los pasos realizados en el proyecto Corrupción, desde la creación de la base de datos hasta las consultas y generación de informes.
+
+* Configuración inicial
+** Creación de la base de datos
+- Base de datos creada con el nombre `proyecto_corrupcion`.
+- Tablas configuradas:
+  - `person`
+  - `investigation`
+  - `publication`
+  - `person_investigation`
+  - `audit_trail`
+  - `institution`
+
+** Configuración de Git y GitHub
+- Inicialización del repositorio Git:
+  ```bash
+  git init
+
