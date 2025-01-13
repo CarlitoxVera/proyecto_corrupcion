@@ -3,21 +3,94 @@
 #+DATE: [2025-01-13]
 
 * Introducción
-Este archivo contiene todos los pasos realizados en el proyecto Corrupción, desde la creación de la base de datos hasta las consultas y generación de informes.
+Este archivo contiene todos los pasos realizados en el proyecto Corrupción, desde la creación de la base de datos hasta las consultas, generación de informes y visualizaciones.
 
 * Configuración inicial
 ** Creación de la base de datos
 - Base de datos creada con el nombre `proyecto_corrupcion`.
 - Tablas configuradas:
-  - `person`
-  - `investigation`
-  - `publication`
-  - `person_investigation`
   - `audit_trail`
+  - `company`
+  - `company_person`
   - `institution`
+  - `investigation`
+  - `legal_acts`
+  - `meeting`
+  - `meeting_investigation`
+  - `payment`
+  - `person`
+  - `person_investigation`
+  - `person_legal`
+  - `person_meeting`
+  - `person_publication`
+  - `person_relation`
+  - `project`
+  - `project_institution`
+  - `project_person`
+  - `publication`
+  - `publication_investigation`
+  - `publication_person`
 
 ** Configuración de Git y GitHub
 - Inicialización del repositorio Git:
-  ```bash
   git init
+  git remote add origin https://github.com/CarlitoxVera/proyecto_corrupcion.git
 
+- Archivos añadidos al repositorio:
+  - `setup.sql`
+  - Scripts de exportación de tablas SQL.
+  - Gráficos generados.
+  - Archivo `todos_los_datos_actualizados.csv`.
+
+* Diseño de la base de datos
+** Estructura de las tablas
+- Tabla `person`
+- Tabla `investigation`
+- Relaciones entre tablas:
+  - `person_investigation` conecta personas con investigaciones.
+  - `publication_person` conecta publicaciones con personas.
+- Claves primarias autoincrementales.
+- Restricciones de integridad referencial.
+
+** Decisiones sobre permisos y seguridad
+- Usuario `proyecto_user` creado con permisos SELECT en las tablas.
+- Se restringieron permisos para proteger la integridad de los datos.
+
+* Consultas SQL implementadas
+** Ejemplo de consultas
+- Selección de ministros relacionados:
+  SELECT pe.nombre, pe.rol, i.enfoque, inst.nombre AS institucion
+  FROM person pe
+  JOIN person_investigation pi ON pe.person_id = pi.person_id
+  JOIN investigation i ON pi.investigation_id = i.investigation_id
+  JOIN institution inst ON i.institucion = inst.institution_id
+  WHERE inst.tipo = 'Gubernamental';
+
+- Exportación de datos colaterales:
+  \copy (
+    SELECT au.fecha AS fecha_evento, au.descripcion AS daño_colateral, i.enfoque AS investigacion
+    FROM audit_trail au
+    JOIN investigation i ON au.related_investigation_id = i.investigation_id
+    WHERE au.tipo = 'Daño colateral'
+  ) TO '/tmp/danos_colaterales.csv' CSV HEADER;
+
+* Generación de gráficos
+- **Detalles de gráficos generados:**
+  - Distribución de roles.
+  - Proyectos por comuna.
+  - Tamaño de publicaciones por fuente.
+
+* Exportaciones y visualizaciones
+- Archivos exportados:
+  - `todos_los_datos_actualizados.csv`
+  - `danos_colaterales.csv`
+
+* Conclusiones
+- Se completaron todos los pasos requeridos.
+- La base de datos está lista para consultas avanzadas.
+- Los gráficos proporcionan un análisis detallado del caso.
+
+* Referencias
+- Fuentes de datos:
+  - Artículos de CIPER, La Tercera, y El Mercurio.
+  - Información sobre investigaciones y audios filtrados.
