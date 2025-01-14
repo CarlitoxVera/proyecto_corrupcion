@@ -84,6 +84,9 @@ Este archivo contiene todos los pasos realizados en el proyecto Corrupción, des
 - Archivos exportados:
   - `todos_los_datos_actualizados.csv`
   - `danos_colaterales.csv`
+  - Se generaron los archivos CSV para las 21 tablas de la base de datos.
+  - Los archivos están ubicados en la carpeta `csv` dentro del proyecto.
+  - Este paso asegura que los datos estén disponibles para futuras manipulaciones o análisis.
 
 * Conclusiones
 - Se completaron todos los pasos requeridos.

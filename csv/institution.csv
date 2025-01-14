@@ -1,0 +1,11 @@
+institution_id,nombre,tipo
+1,SII,Gubernamental
+2,CMF,Reguladora
+3,Policía de Investigaciones,Gubernamental
+4,Corte Suprema de Chile,Gubernamental
+5,Ministerio del Interior,Gubernamental
+6,Ministerio Público,Gubernamental
+7,Ministerio de Hacienda,Ministerio
+8,Ministerio de Justicia y Derechos Humanos,Ministerio
+9,Servicio de Impuestos Internos,Organismo Público
+10,Comisión para el Mercado Financiero,Organismo Público

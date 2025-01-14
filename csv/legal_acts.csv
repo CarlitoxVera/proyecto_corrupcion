@@ -1,0 +1,6 @@
+act_id,descripcion,tipo
+1,Soborno a funcionarios públicos del SII,Delito
+2,Evasión fiscal mediante facturas falsas,Delito
+3,Tráfico de influencias en la CMF,Delito
+4,Omisión de información en trámites legales,Falta
+5,Pagos no declarados a terceros,Falta

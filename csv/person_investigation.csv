@@ -1,0 +1,11 @@
+person_investigation_id,person_id,investigation_id,rol_en_investigacion
+1,1,1,Abogado defensor
+2,2,1,Colaboradora clave
+3,3,2,Principal investigado
+6,1,9,Abogado defensor
+7,2,1,Asesora legal
+8,3,2,Implicado directo
+21,16,11,Implicado indirecto
+22,19,12,Relación directa
+23,16,15,Implicado indirecto
+24,19,12,Relación directa
