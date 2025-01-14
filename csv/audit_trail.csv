@@ -1,0 +1,8 @@
+audit_id,fecha,descripcion,related_investigation_id,tipo
+1,2023-06-15,Inicio de la investigación sobre corrupción judicial.,4,
+2,2023-06-20,Evidencias preliminares recopiladas en el caso judicial.,4,
+3,2023-06-25,Testimonios clave presentados en el tribunal.,4,
+4,2023-06-25,Renuncia del Director General de Factop debido a las investigaciones.,9,Daño colateral
+5,2023-07-10,Pérdida de contratos significativos de STF Capital tras la exposición mediática.,9,Daño colateral
+6,2023-06-25,Renuncia del Director General de Factop debido a las investigaciones.,14,Daño colateral
+7,2023-07-10,Pérdida de contratos significativos de STF Capital tras la exposición mediática.,14,Daño colateral
