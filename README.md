@@ -48,6 +48,11 @@ Proporcionar una herramienta para analizar y registrar datos relacionados con ev
 9. Identificar instituciones recurrentes en las noticias relacionadas.
 10. ¿Qué proyectos han sido cancelados debido a las investigaciones?
 
+## Cambios Recientes
+1. Exportación de tablas a archivos CSV.
+2. Implementación de nuevas consultas y resultados.
+3. Sincronización de todos los cambios en el repositorio.
+
 ## Estado del Proyecto
 - [x] Introducción del proyecto
 - [x] Iniciar un registro de proyecto
@@ -65,3 +70,4 @@ Proporcionar una herramienta para analizar y registrar datos relacionados con ev
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
+Prueba de sincronización

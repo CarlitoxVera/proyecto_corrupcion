@@ -88,6 +88,18 @@ Este archivo contiene todos los pasos realizados en el proyecto Corrupción, des
   - Los archivos están ubicados en la carpeta `csv` dentro del proyecto.
   - Este paso asegura que los datos estén disponibles para futuras manipulaciones o análisis.
 
+* Actualizaciones recientes:
+1. Exportación de consultas nuevas:
+   - Consultas implementadas en `consultas_nuevas_proyecto.sql`.
+   - Resultados guardados en `consultas_nuevas_resultados.csv`.
+
+2. Revisión de consultas:
+   - Validación de las 13 consultas obligatorias.
+   - Implementación de las 10 consultas nuevas, incluyendo sus resultados.
+
+3. Sincronización del repositorio:
+   - Actualización de todos los archivos relevantes en el repositorio.
+   - Verificación de la estructura completa del proyecto: SQL, CSV, README.md y el modelo ER.
 * Conclusiones
 - Se completaron todos los pasos requeridos.
 - La base de datos está lista para consultas avanzadas.
