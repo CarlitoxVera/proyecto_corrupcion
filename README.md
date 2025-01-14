@@ -65,3 +65,4 @@ Proporcionar una herramienta para analizar y registrar datos relacionados con ev
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
+Prueba de sincronización
