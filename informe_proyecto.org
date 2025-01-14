@@ -1,0 +1,80 @@
+* Informe del Proyecto: Análisis de Corrupción en Chile
+
+** Introducción
+   Este informe detalla el desarrollo, implementación y análisis del proyecto que busca modelar y analizar las relaciones entre personas, instituciones y empresas implicadas en casos de corrupción en Chile, particularmente aquellos revelados por el audio del abogado Luis Hermosilla.
+
+** Objetivos del Proyecto
+   - Proporcionar herramientas para analizar conexiones entre individuos e instituciones en casos de corrupción.
+   - Identificar patrones relevantes de corrupción mediante consultas SQL y modelado.
+
+** Metodología
+
+*** Diseño y Modelado
+   - Se creó un modelo de base de datos utilizando el diagrama ER para representar las relaciones entre personas, instituciones y empresas.
+   - Las tablas principales incluyen `person`, `institution`, `investigation`, `publication`, entre otras.
+   - Se incluyó un archivo SQL que genera la estructura completa de la base de datos.
+
+*** Implementación
+   - Configuración del servidor PostgreSQL y creación de la base de datos `proyecto_corrupcion`.
+   - Importación de datos reales y ficticios en las tablas creadas.
+
+*** Consultas Obligatorias
+   Se desarrollaron 13 consultas que responden a los objetivos iniciales del proyecto:
+
+   1. Fecha inicial desde que opera Luis Hermosilla.
+   2. Principales colaboradores de Luis Hermosilla año a año.
+   3. Medios que publican noticias sobre Luis Hermosilla.
+   4. Ministerios relacionados con los actos de Luis Hermosilla.
+   5. Ministros involucrados en acciones de Luis Hermosilla.
+   6. Partidos políticos relacionados con Luis Hermosilla.
+   7. Lazos familiares en el poder relacionados con Luis Hermosilla.
+   8. Eventos como daños colaterales desde que se destapó el caso.
+   9. Actos enunciados en el audio considerados delitos o faltas.
+   10. Universidades de los involucrados en delitos realizados por Luis Hermosilla.
+   11. Horas desde que se publicó el audio.
+   12. Comunas con proyectos favorecidos por gestiones de Luis Hermosilla.
+   13. Tamaño de información generado por categoría de contenido.
+
+*** Consultas Nuevas
+   Además, se implementaron 10 consultas adicionales para analizar patrones emergentes:
+
+   1. Personas involucradas en múltiples investigaciones.
+   2. Rango de fechas de publicaciones relacionadas con Luis Hermosilla.
+   3. Instituciones con mayor cantidad de investigaciones.
+   4. Porcentaje de investigaciones relacionadas con tráfico de influencias.
+   5. Proyectos gestionados en comunas específicas por Luis Hermosilla.
+   6. Asesores legales que participan en múltiples investigaciones.
+   7. Publicación más grande por tamaño.
+   8. Personas con mayor número de relaciones familiares o laborales.
+   9. Investigaciones relacionadas con evidencia clave.
+   10. Empresas vinculadas a investigaciones de corrupción.
+
+** Resultados y Análisis
+
+*** Datos Generados
+   - Tablas: 21 tablas principales fueron exportadas como archivos CSV.
+   - Consultas: Todas las consultas fueron implementadas y sus resultados documentados.
+   - Archivos SQL: Un archivo con todas las consultas implementadas y otro con sus resultados.
+
+*** Hallazgos Principales
+   - Luis Hermosilla está vinculado directamente a 6 investigaciones.
+   - El Ministerio Público es la institución más involucrada, con 8 investigaciones relacionadas.
+   - La corrupción revelada abarca una red compleja de conexiones familiares, políticas y empresariales.
+
+** Conclusiones
+   - Este proyecto destaca cómo la base de datos puede ser utilizada para identificar patrones de corrupción.
+   - Las consultas desarrolladas ofrecen un marco sólido para futuros análisis y visualizaciones.
+   - Es posible extender este trabajo con integraciones a herramientas de análisis visual y reportes dinámicos.
+
+** Próximos Pasos
+   - Implementar un sistema de visualización interactivo.
+   - Realizar análisis predictivos sobre datos históricos.
+   - Mejorar la documentación técnica y generar reportes automáticos.
+
+** Referencias
+   - Documentación generada durante el proyecto.
+   - Archivos adjuntos: `consultas_proyecto.sql`, `consultas_nuevas_resultados.csv`, entre otros.
+
+** Anexos
+   - Diagramas ER.
+   - Resultados de consultas ejecutadas.
