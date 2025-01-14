@@ -1,0 +1,37 @@
+persona,rol,universidad,afiliacion,empresa,industria,proyecto,comuna,descripcion_proyecto,publicacion,medio,fecha_publicacion,institucion_relacionada,investigacion,estado_investigacion,relacion,relacionado_con
+Luis Hermosilla,Abogado,Universidad de Chile,Independiente,Factop,Factoring,Proyecto 1,Vitacura,Beneficios fiscales otorgados irregularmente,Revelaciones sobre corrupción en el SII y CMF,CIPER,2023-06-20,Ministerio Público,Investigación sobre pagos ilícitos liderados por Luis Hermosilla,En progreso,Socios políticos y colaborador en temas legales,Sergio Muñoz Yáñez
+Luis Hermosilla,Abogado,Universidad de Chile,Independiente,Factop,Factoring,Proyecto 1,Vitacura,Beneficios fiscales otorgados irregularmente,Revelaciones sobre corrupción en el SII y CMF,CIPER,2023-06-20,SII,Investigación sobre facturas falsas y corrupción en el SII,En progreso,Socios políticos y colaborador en temas legales,Sergio Muñoz Yáñez
+Luis Hermosilla,Abogado,Universidad de Chile,Independiente,Factop,Factoring,Proyecto 1,Vitacura,Beneficios fiscales otorgados irregularmente,Revelaciones sobre corrupción en el SII y CMF,CIPER,2023-06-20,Ministerio Público,Investigación sobre pagos ilícitos liderados por Luis Hermosilla,En progreso,Trabajaron juntos en el caso Factop,Leonarda Villalobos
+Luis Hermosilla,Abogado,Universidad de Chile,Independiente,Factop,Factoring,Proyecto 1,Vitacura,Beneficios fiscales otorgados irregularmente,Revelaciones sobre corrupción en el SII y CMF,CIPER,2023-06-20,SII,Investigación sobre facturas falsas y corrupción en el SII,En progreso,Trabajaron juntos en el caso Factop,Leonarda Villalobos
+Luis Hermosilla,Abogado,Universidad de Chile,Independiente,Factop,Factoring,Proyecto 1,Vitacura,Beneficios fiscales otorgados irregularmente,Revelaciones sobre corrupción en el SII y CMF,CIPER,2023-06-20,Ministerio Público,Investigación sobre pagos ilícitos liderados por Luis Hermosilla,En progreso,Hermanos,Juan Pablo Hermosilla
+Luis Hermosilla,Abogado,Universidad de Chile,Independiente,Factop,Factoring,Proyecto 1,Vitacura,Beneficios fiscales otorgados irregularmente,Revelaciones sobre corrupción en el SII y CMF,CIPER,2023-06-20,SII,Investigación sobre facturas falsas y corrupción en el SII,En progreso,Hermanos,Juan Pablo Hermosilla
+Leonarda Villalobos,Abogada,Pontificia Universidad Católica de Chile,Partido Socialista,STF,Corredora de Bolsa,,,,Evidencia en caso de evasión fiscal,La Tercera,2023-06-25,SII,Investigación sobre facturas falsas y corrupción en el SII,En progreso,Socios en Commercia Spa,Andrés Chadwick
+Leonarda Villalobos,Abogada,Pontificia Universidad Católica de Chile,Partido Socialista,STF,Corredora de Bolsa,,,,Evidencia en caso de evasión fiscal,La Tercera,2023-06-25,SII,Investigación sobre facturas falsas y corrupción en el SII,En progreso,Socios en Commercia Spa,Andrés Chadwick
+Leonarda Villalobos,Abogada,Pontificia Universidad Católica de Chile,Partido Socialista,STF,Corredora de Bolsa,,,,Evidencia en caso de evasión fiscal,La Tercera,2023-06-25,SII,Investigación sobre facturas falsas y corrupción en el SII,En progreso,Matrimonio,Luis Angulo
+Leonarda Villalobos,Abogada,Pontificia Universidad Católica de Chile,Partido Socialista,STF,Corredora de Bolsa,,,,Evidencia en caso de evasión fiscal,La Tercera,2023-06-25,SII,Investigación sobre facturas falsas y corrupción en el SII,En progreso,Matrimonio,Luis Angulo
+Daniel Sauer,Empresario,Universidad Adolfo Ibáñez,Factop,,,Proyecto 2,Santiago Centro,Facturas trianguladas para evasión fiscal,Evidencia en caso de evasión fiscal,La Tercera,2023-06-25,CMF,Revisión de operaciones de la CMF relacionadas con STF,Cerrada,Hermanos,Ariel Sauer
+Daniel Sauer,Empresario,Universidad Adolfo Ibáñez,Factop,,,Proyecto 2,Santiago Centro,Facturas trianguladas para evasión fiscal,Evidencia en caso de evasión fiscal,La Tercera,2023-06-25,CMF,Revisión de operaciones de la CMF relacionadas con STF,Cerrada,Hermanos,Ariel Sauer
+Daniel Sauer,Empresario,Universidad Adolfo Ibáñez,Factop,,,Proyecto 2,Santiago Centro,Facturas trianguladas para evasión fiscal,Evidencia en caso de evasión fiscal,La Tercera,2023-06-25,CMF,Revisión de operaciones de la CMF relacionadas con STF,Cerrada,Hermanos y socios en Factop y STF,Ángela Vivanco
+Daniel Sauer,Empresario,Universidad Adolfo Ibáñez,Factop,,,Proyecto 2,Santiago Centro,Facturas trianguladas para evasión fiscal,Evidencia en caso de evasión fiscal,La Tercera,2023-06-25,CMF,Revisión de operaciones de la CMF relacionadas con STF,Cerrada,Hermanos y socios en Factop y STF,Ángela Vivanco
+Sergio Muñoz Yáñez,Exdirector de la PDI,Universidad de Chile,Policía de Investigaciones,,,,,,,,,,,,,
+Ángela Vivanco,Exministra de la Corte Suprema,Pontificia Universidad Católica de Chile,Corte Suprema de Chile,,,,,,,,,,,,,
+Andrés Chadwick,Exministro del Interior,Pontificia Universidad Católica de Chile,Gobierno de Chile,,,,,,,,,,,,,
+Jean Pierre Matus,Ministro de la Corte Suprema,Universidad de Chile,Corte Suprema de Chile,,,,,,,,,,,,,
+Felipe Ward,Exministro,Universidad Finis Terrae,Gobierno de Chile,,,,,,,,,,,,,
+Manuel Guerra,Fiscal Metropolitano Oriente,Universidad de Chile,Ministerio Público,,,,,,,,,,,,,
+Andrés Chadwick,Político,Pontificia Universidad Católica,UDI,,,,,,,,,,,,,
+Exequiel Silva Ortiz,Exdiputado y lobista,Universidad de Chile,Partido Demócrata Cristiano,,,,,,,,,,,,,
+Jonathan Herzfeld,Empresario,Universidad Adolfo Ibáñez,Independiente,,,,,,,,,,,,,
+Eduardo Elberg,Empresario,Universidad de Chile,Independiente,,,,,,,,,,,,,
+Paola Luksic,Empresaria,Universidad Adolfo Ibáñez,Grupo Luksic,,,,,,,,,,,,,
+Gabriela Luksic,Empresaria,Universidad de Chile,Grupo Luksic,,,,,,,,,,,,,
+Andrés Chadwick,Exministro del Interior,Pontificia Universidad Católica de Chile,Independiente,,,,,,,,,Ministerio Público,Caso Parque Capital,En progreso,,
+Andrés Chadwick,Exministro del Interior,Pontificia Universidad Católica de Chile,Independiente,,,,,,,,,Ministerio Público,Caso tráfico de influencias judiciales,En progreso,,
+Felipe Ward,Exministro de Bienes Nacionales,Universidad Católica del Norte,Unión Demócrata Independiente (UDI),,,,,,,,,,,,,
+Ángela Vivanco,Exministra de la Corte Suprema,Pontificia Universidad Católica de Chile,,,,,,,,,,,,,,
+Jean Pierre Matus,Ministro de la Corte Suprema,Universidad de Chile,,,,,,,,,,Ministerio Público,Caso de corrupción judicial y favores políticos,En progreso,,
+Jean Pierre Matus,Ministro de la Corte Suprema,Universidad de Chile,,,,,,,,,,Ministerio Público,Caso de corrupción judicial y favores políticos,En progreso,,
+Sergio Muñoz,Ministro de la Corte Suprema,Universidad de Chile,,,,,,,,,,,,,,
+Luis Angulo,Empresario,Universidad Adolfo Ibáñez,Commercia,,,,,,,,,,,,,
+Ariel Sauer,Empresario,Universidad de Chile,Factop,,,,,,,,,,,,,
+Juan Pablo Hermosilla,Abogado,Pontificia Universidad Católica de Chile,Independiente,,,,,,,,,,,,,
