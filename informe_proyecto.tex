@@ -1,0 +1,127 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\geometry{margin=1in}
+
+\title{\textbf{Informe del Proyecto: Análisis de Corrupción en Chile}}
+\author{Equipo de Trabajo}
+\date{Enero 2025}
+
+\begin{document}
+
+\maketitle
+
+\section*{Introducción}
+Este informe detalla el desarrollo, implementación y análisis del proyecto que busca modelar y analizar las relaciones entre personas, instituciones y empresas implicadas en casos de corrupción en Chile, particularmente aquellos revelados por el audio del abogado Luis Hermosilla.
+
+\section*{Objetivos del Proyecto}
+\begin{itemize}
+    \item Proporcionar herramientas para analizar conexiones entre individuos e instituciones en casos de corrupción.
+    \item Identificar patrones relevantes de corrupción mediante consultas SQL y modelado.
+\end{itemize}
+
+\section*{Metodología}
+
+\subsection*{Diseño y Modelado}
+\begin{itemize}
+    \item Se creó un modelo de base de datos utilizando el diagrama ER para representar las relaciones entre personas, instituciones y empresas.
+    \item Las tablas principales incluyen \texttt{person}, \texttt{institution}, \texttt{investigation}, \texttt{publication}, entre otras.
+    \item Se incluyó un archivo SQL que genera la estructura completa de la base de datos.
+\end{itemize}
+
+\subsection*{Implementación}
+\begin{itemize}
+    \item Configuración del servidor PostgreSQL y creación de la base de datos \texttt{proyecto\_corrupcion}.
+    \item Importación de datos reales en las tablas creadas.
+\end{itemize}
+
+\section*{Acceso al Repositorio}
+Toda la documentación, scripts y resultados de este proyecto están disponibles en el repositorio de GitHub:
+
+\begin{itemize}
+    \item URL del repositorio: \href{https://github.com/CarlitoxVera/proyecto_corrupcion}{https://github.com/CarlitoxVera/proyecto_corrupcion}
+    \item Usuario: \texttt{proyecto\_user}
+    \item Contraseña: \texttt{proyecto2025}
+\end{itemize}
+
+\subsection*{Consultas Obligatorias}
+Se desarrollaron 13 consultas que responden a los objetivos iniciales del proyecto:
+\begin{enumerate}
+    \item Fecha inicial desde que opera Luis Hermosilla.
+    \item Principales colaboradores de Luis Hermosilla año a año.
+    \item Medios que publican noticias sobre Luis Hermosilla.
+    \item Ministerios relacionados con los actos de Luis Hermosilla.
+    \item Ministros involucrados en acciones de Luis Hermosilla.
+    \item Partidos políticos relacionados con Luis Hermosilla.
+    \item Lazos familiares en el poder relacionados con Luis Hermosilla.
+    \item Eventos como daños colaterales desde que se destapó el caso.
+    \item Actos enunciados en el audio considerados delitos o faltas.
+    \item Universidades de los involucrados en delitos realizados por Luis Hermosilla.
+    \item Horas desde que se publicó el audio.
+    \item Comunas con proyectos favorecidos por gestiones de Luis Hermosilla.
+    \item Tamaño de información generado por categoría de contenido.
+\end{enumerate}
+
+\subsection*{Consultas Nuevas}
+Además, se implementaron 10 consultas adicionales para analizar patrones emergentes:
+\begin{enumerate}
+    \item Personas involucradas en múltiples investigaciones.
+    \item Rango de fechas de publicaciones relacionadas con Luis Hermosilla.
+    \item Instituciones con mayor cantidad de investigaciones.
+    \item Porcentaje de investigaciones relacionadas con tráfico de influencias.
+    \item Proyectos gestionados en comunas específicas por Luis Hermosilla.
+    \item Asesores legales que participan en múltiples investigaciones.
+    \item Publicación más grande por tamaño.
+    \item Personas con mayor número de relaciones familiares o laborales.
+    \item Investigaciones relacionadas con evidencia clave.
+    \item Empresas vinculadas a investigaciones de corrupción.
+\end{enumerate}
+
+\section*{Resultados y Análisis}
+
+\subsection*{Datos Generados}
+\begin{itemize}
+    \item Tablas: 21 tablas principales fueron exportadas como archivos CSV.
+    \item Consultas: Todas las consultas fueron implementadas y sus resultados documentados.
+    \item Archivos SQL: Un archivo con todas las consultas implementadas y otro con sus resultados.
+\end{itemize}
+
+\subsection*{Hallazgos Principales}
+\begin{itemize}
+    \item Luis Hermosilla está vinculado directamente a 6 investigaciones.
+    \item El Ministerio Público es la institución más involucrada, con 8 investigaciones relacionadas.
+    \item La corrupción revelada abarca una red compleja de conexiones familiares, políticas y empresariales.
+\end{itemize}
+
+\section*{Conclusiones}
+\begin{itemize}
+    \item Este proyecto destaca cómo la base de datos puede ser utilizada para identificar patrones de corrupción.
+    \item Las consultas desarrolladas ofrecen un marco sólido para futuros análisis y visualizaciones.
+    \item Es posible extender este trabajo con integraciones a herramientas de análisis visual y reportes dinámicos.
+\end{itemize}
+
+\section*{Próximos Pasos}
+\begin{itemize}
+    \item Implementar un sistema de visualización interactivo.
+    \item Realizar análisis predictivos sobre datos históricos.
+    \item Mejorar la documentación técnica y generar reportes automáticos.
+\end{itemize}
+
+\section*{Referencias}
+\begin{itemize}
+    \item Documentación generada durante el proyecto.
+    \item Archivos adjuntos: \texttt{consultas\_proyecto.sql}, \texttt{consultas\_nuevas\_resultados.csv}, entre otros.
+\end{itemize}
+
+
+\section*{Anexos}
+\begin{itemize}
+    \item Diagramas ER.
+    \item Logs y resultados de consultas ejecutadas.
+\end{itemize}
+
+\end{document}
+
